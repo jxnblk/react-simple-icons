@@ -24,3 +24,8 @@ export default App
 ```
 
 MIT License
+
+---
+
+- [ ] Export color values
+- [ ] brandColor prop
