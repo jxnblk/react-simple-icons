@@ -26,3 +26,4 @@ export default App
 ```
 
 MIT License
+
