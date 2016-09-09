@@ -1,6 +1,6 @@
 {
   "name": "react-simple-icons",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "description": "React component for social icons from https://simpleicons.org",
   "main": "dist/Icon.js",
   "scripts": {
