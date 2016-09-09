@@ -16,6 +16,7 @@ const Icon = ({
       viewBox='0 0 16 16'
       width={size}
       height={size}
+      fill={fill}
       fillRule='evenodd'
       clipRule='evenodd'
       strokeLinejoin='round'
