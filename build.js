@@ -4,7 +4,7 @@ const fs = require('fs')
 const path = require('path')
 const cheerio = require('cheerio')
 
-const DIR = path.join(__dirname, 'node_modules', 'simple-icons', 'icons')
+const DIR = path.join(__dirname, 'node_modules', 'simple-icons#gh-pages', 'icons')
 
 const ICONS = [
   'twitter.svg',
@@ -14,7 +14,7 @@ const ICONS = [
   'vine.svg',
   'snapchat.svg',
   'linkedin.svg',
-  'dribble.svg',
+  'dribbble.svg',
   'flickr.svg',
   'tumblr.svg',
   'behance.svg',
