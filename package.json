@@ -1,12 +1,12 @@
 {
   "name": "react-simple-icons",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0-beta.4",
   "description": "React component for social icons from https://simpleicons.org",
   "main": "dist/Icon.js",
   "scripts": {
     "build-icons": "node build.js",
     "prepublish": "mkdir -p dist && npm run build-icons && babel src --out-dir dist",
-    "install": "napa danleech/simple-icons#gh-pages",
+    "postinstall": "napa danleech/simple-icons#gh-pages",
     "docs": "webpack -p",
     "start": "webpack-dev-server",
     "test": "ava"
